@@ -14,6 +14,15 @@ public class Nation {
         this.population = population;
     }
 
+    public void printPlanet(){
+        
+        System.out.println(this.Planet);
+    }
+
+    public void setPlanet(String Planet){
+        this.Planet = Planet;
+    }
+
     public String getName() {
         return name;
     }
